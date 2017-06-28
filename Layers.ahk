@@ -1,4 +1,4 @@
-﻿;Author: Gerald Gehrk-e
+﻿;Author: Gerald Gehrke
 ;Date: 8-14-2016
 ;Description: This is to provide useful hotkeys for more ergonomic programming practices
 
