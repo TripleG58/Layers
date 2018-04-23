@@ -102,3 +102,7 @@ p::Send {~}
 ]::Send {@}
 m::Send {#} 
 
+Esc::
+Suspend
+Pause,,1
+return
