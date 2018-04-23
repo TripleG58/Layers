@@ -19,38 +19,38 @@ Pause,,1
 return
 
 ;mouse wheel activates window underneath
-~WheelUp::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~+WheelUp::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~WheelDown::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~+WheelDown::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~WheelLeft::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~+WheelLeft::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~WheelRight::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
-~+WheelRight::
-MouseGetPos,,, WinUMID
-WinActivate, ahk_id %WinUMID%
-return
+;~WheelUp::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~+WheelUp::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~WheelDown::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~+WheelDown::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~WheelLeft::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~+WheelLeft::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~WheelRight::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
+;~+WheelRight::
+;MouseGetPos,,, WinUMID
+;WinActivate, ahk_id %WinUMID%
+;return
 
 
 
@@ -101,3 +101,4 @@ p::Send {~}
 [::Send {$}
 ]::Send {@}
 m::Send {#} 
+
