@@ -7,7 +7,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-
+Menu, Tray, Icon, C:\Windows\System32\imageres.dll, 174, 0
 
 ;Start Script
 #SingleInstance, force
